@@ -5,13 +5,13 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import About from './components/About';
+import List from './components/List';
 export default function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<About />} >
+          <Route path="/" element={<List />} >
         
           </Route>
 
